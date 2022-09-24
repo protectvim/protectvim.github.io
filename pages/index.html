@@ -1,0 +1,219 @@
+<?php
+$host = $_SERVER['HTTP_HOST'];
+$a = ltrim($_SERVER['REQUEST_URI'], '/');
+//echo  $host.'<br>';
+//echo $a;
+$url="https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+//echo $url;
+$keyword =  str_replace("-"," ",$a);
+//echo $keyword;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <meta name="referrer" content="origin"/><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <title><?php echo $keyword; ?></title>
+
+</head>
+<body style="margin:3rem 5rem;font-size:1.2rem;background: linear-gradient(to right, rgb(224, 234, 252), rgb(207, 222, 243));border:3px solid white;padding:2rem;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+
+    <div style="box-sizing:border-box;display:flex;justify-content:center;align-items:center;">
+        <h1><?php echo $keyword; ?></h1>
+        
+      </div>
+      <br>
+<script type="text/javascript"> 
+ var i,
+         
+          uarticle = ["The", "A", "One", "Some", "Any",'the','a','an','more','network','permission',	'printer','reinstall','roblox','rsa','rx','scan','spotify','ssl','unmounting','visual','what',	'1005f','2006f','add','after','there','error','icloud','omegle','urban','wordpress','remote','elden','connection','constant','pr connect reset error','steam','captcha','a','fall','ff14','recaptcha','error ','the','valorant','hulu','lobby','roblox','snapchat','ssl','connect','f95zone','myq','cash','refused','ring','sqlstate','valkyrie','windows','an','cast','ffxiv','network','upstream','wechat','connecting','could','libressl','pr','rainbow','tmc','too','verification','gopro','why','your','ebay','forticlient','openssl','youtube','cannot','errors com epicgames online generic connection failure','failed','heroku','io','kia','minecraft','mysql connector errors operationalerror','putty','ssl connect error','apple','cifs ','csgo','sprint','wsus','[ioredis]','curl','error 1400410b ssl','error 1404b42e ssl','errors','errors log enable','fatal','firefox','galaxy','hp','iaqualink','marlin','new','norton','ora 00257 ','redis','restoring','ricoh','roku','tiny','unable','virt manager','vnc','war','what','winscp','zti','app','candy','comcast','deluge','epic','go roku com connectivity','hogwarts','how','internet','kafka','osrs','pr connect aborted error','ps3','pscp','simplisafe','sleep','smart','socket','sql','this','unhandledpromiserejectionwarning ','2k','aladdin','bluetooth','cisco','daikin','entune','ipvanish','ps4','pubg','pymongo errors serverselectiontimeouterror','secure','server','subway','tamriel','utorrent','volvo','credit','database','elb','google','hyundai','ipad','lorex','media','nba','nordictrack','outriders','pax','postman','psql ','v','websocket','zscaler','adobe','aws','azure','backend','battlefield','blocked','carplay','chrome','chromebook','cli','connect error','critical','curle ssl connect error','download','err ssl protocol error','error internet cannot connect','f5','facebook','fix','godaddy','godfall','grindr','gro','honeywell','host','icm http ssl error','insomnia','instagram','is','java sql sqlrecoverableexception ','kenmore','kevo','konica','many','mariadb','max connect errors','mongo','mysql','mysql connector errors programmingerror','mysqli','mysqli connect error','navien','openvpn','org','php','pr end of file error','pstream','pymongo','sockettransport error connect timeout','str online connection error 03','sync','target','tiktok','trusted','trying','uworld','adt','advance','alexa','amazon','among','android','anyconnect','apex','audi','authentication','authorization','balance','battery','bf','bimmercode','bio read','bioshock','bloodhunt','bluehost','broadcastify','brother','bustr','canon','cant','cip','citrix','connect azuread','cricut','db','db connect error','dbd','deployed','destiny','device','discord','dji','dnn','docker','downloader','dreamhost','driver','dvprogram state gov ','echo','edge','email','endwalker','env check error','err connection reset','error com epicgames mcpprofilegroup connection failure','error com epicgames online generic connection failure','error 14004410 ssl','error 1401e410 ssl','error 1404b410 ssl','error 1404b438 ssl','error game js5connect','error winhttp cannot connect','0xc0000225','0xe800000a','0xe80000a','1','10 14','10 17','10 18','10054','10060','10061','101','102','1030','104','1040','1045','110','111','1110060','12031','123','1231','123movies gdnpr connect reset error','125','1259','127','133da5','141','144 208 68 96','150','1526','1554137948','1591341','16 0204','16 ff01','1747','1747 aentr','1756','1756 o8f','18','182','18456','192 168 0 1','192 168 50 190','1and1','1c','1ds','1mobile','1password','2 5 26','2 6 41','2001','2006','2007','2008','2009','2010','2011','2012','2013','2015','2016','2016 wsus connection error','2017','2017icloud','2018','2019','202','2020','23 02 2020','2026','2035','2054','21','213','2162ds','2208','23','24','246106','26','27001','27774','2fa','2k17','2k18','2k19','2k21','2miners','2nd','3','3+','3 0x00100b','3 6 10','300704232012','301','313005','32547','3265','35','360','3cx','3d','3dprinteros','3ds','3dxchat','3g','3m','3s3d','3utools','4','40','400','401','4010','403','404','40k','411','421','425','426','429','435','442','443','450','451','4750','47g2 ug','4888','4anime','4channel','4chanx','4nec2','5','500','500]','501','502','502 3','503','50341 mw1','504','5098f mw1','511','516','530','535','550','551','554','58mu6070','599','5zigs','acre','acro','acrobat','acs','action','actioncable','actionview','activate','activbuds','active','activerecord','activesheet querytables add','activeworkbook connections','acucobol gt','acunetix','acura','acurite','acymailing','ad1884','ada','adamj','adaptec','adapter','adaptive','adblock','adcap','add','add in','addgadgets','addon','ade','adeept','adempiere','adfs','adguard','adidas','adium','admin','adndroid','ado','adodb','adp','adroid','adsl','advanced','adventure','advisor','advisors','advisorsassistant','aeria','aever','affirm','airflow'],
+          noun = ["A", "One", "Some",'actionscript','activate','active','activex','actualizar','add','address',	'adobe','adt','advanced','airport',	'airtel','ajax','ako','alexa','alienware','all','almost','amateous','amazon','amazon-ksg','amd','android','andy','angry','animal','antique','any','anydvd',	'aol','apa','apache','apex','app','appauth','appcrash',	'apperror',	'apphangb1','applet','application',	'april','ar5b195','archos',	'area',	'arena4viewer',	'ark','as400','aspire',	'asrock','assert','astronomical','asus','at','at&t','att',	'auslogics','authenticaing','authentication','authentification','authy','autocad',	'autodesk',	'automatically','automation','avast','internet', 'science', 'computer', 'engineering', 'technological', 'computing', 'tech', 'software', 'nanotechnology', 'application', 'robotics', 'systems', 'high technology', 'electronics', 'biotechnology', 'communication', 'devices', 'automation', 'information', 'applications', 'equipment', 'game', 'innovations', 'code', 'tools', 'industry', 'technology', 'wireless', 'computers', 'skill', 'computer science', 'hardware', 'social', 'virtual', 'products', 'app', 'robots', 'high tech', 'business', 'phones', 'product', 'micro', 'process', 'technological innovations', 'power', 'solutions', 'machinery', 'media', 'nanotech', 'platform', 'system', 'technical', 'electron', 'cyberscience', 'knowledge', 'bionics', 'manufacturing', 'society', 'ergonomics', 'concept', 'digital', 'intelligence', 'capability', 'energy', 'history', 'math', 'screens', 'financial', 'electronic', 'miniaturization', 'radio', 'value', 'crowbar', 'developer', 'core', 'capabilities', 'commercial', 'labs', 'build', 'resources', 'magic', 'innovate', 'nuclear weapon', 'computer software', 'nano', 'weapons', 'development', 'device', 'aeronautical engineering', 'materials', 'ability', 'scientific method', 'language', 'infrastructure', 'space', 'medical', 'wheel', 'cybersecurity', 'methodology', 'online', 'networked', 'technician', 'club', 'consumer', 'formality', 'global', 'makers', 'generation', 'technologists', 'useful arts', 'alchemy', 'silk', 'antiscience', 'complicate', 'system science', 'mechanical engineer', 'tecnology', 'hi tech', 'biomedical', 'proprietary', 'field of study', 'time', 'gaming', 'phone', 'weaponry', 'security', 'human', 'production', 'scientific', 'framework', 'skills', 'understanding', 'services', 'technological advancements', 'handheld devices', 'industrial', 'life', 'machine', 'protocol', 'modern', 'comfort', 'applied science', 'architectures', 'engineer', 'world', 'invention', 'rfid', 'coding', 'video', 'network', 'ecosystem', 'revolutionize', 'breakthroughs', 'games', 'inventions', 'apps', 'screen', 'engine', 'grid computing', 'neolithic', 'value proposition', 'new', 'user interfaces', 'innovative', 'strategy', 'learning', 'pollution', 'processing', 'clothing', 'evolution', 'it', 'rocketry', 'primates', 'neo-luddism', 'spoon', 'techno-progressivism', 'reasoned', 'developing', 'communications', 'mobile', 'dynamic', 'networks', 'specialized', 'goal-oriented', 'military technology', 'economic globalization', 'conspicuous leisure', 'scientifically', 'smelting', 'human condition', 'computer technology', 'subject area', 'biometrics', 'imaging', 'climatology', 'industrial arts', 'biophysics', 'technologies of the self', 'phrenology', 'agronomy', 'functionality', 'mutate', 'physic', 'mining', 'transaminate', 'television', 'techie', 'transistor', 'professionalize', 'inactivate', 'sysop', 'satellite', 'scientific discipline', 'social science', 'technologic', 'techniques', 'telephone', 'research', 'design', 'medicine', 'technologically', 'photonics', 'technique', 'nanotechnologies', 'technological advancement', 'data', 'methods', 'digital imaging', 'programming', 'technological innovation', 'machines', 'transhumanism', 'service', 'company', 'information technology', 'rapidly evolving', 'civilization', 'biology', 'innovating', 'method', 'management', 'quality', 'commercializing', 'chemical engineering', 'architecture', 'people', 'technologically advanced', 'advancements', 'money', 'project', 'physics', 'market', 'domain expertise', 'electricity', 'progress', 'military', 'growth', 'second industrial revolution', 'material', 'processes', 'powers', 'patented', 'resource', 'core competencies', 'scientific breakthroughs', 'bioscience', 'safety', 'projects', 'implementation','process','collection','encorder','13','felix','fenix','1406','care','enhanced','payload','two','mbam','ex','d320','printhead','830','922','100','ip6000d','mg3620','head','speedgrade','rid','aep','ap0','deluge','fern','fivem','gig','hwmonitor','kemper','kies','metro','netbeqans','nielvis','nox','npsp','older','optical','php mysql','pop','prosonus','putty','record','starbucks','tech','themes','tomtom','fatal error','fmt','aplikasi','aplication','masalah','spurious','5 57 7182','clp1028','7 86116','me','even','248','unsatisfiable','overhal','fo','pending','endpoint','executing','chef manage','hm77','caused','julia','powershell packagemanagement','operating','finishing','sourcefire','an','dns','task','windows','kb5010795','potential','ps4','playstation','vcenter','ipad','steam','update','lanc','unable','updated','zclient'],
+          verb = ['eat','drink','walk','error','how','unable','acrocef','acronis','activating','activation','among','amplitube','amt','anaconda','android',	'andy',	'angular','ant','ants',	'any','whea','windows','thread','0x80004oo5','valorant','out','xbox','potential','unrecoverable','an','bad','disk','error','system','how','logonui','video','kernel','kernelbase dll','800f083f','bejeweled','blue','errors','ms windows store','printer','sihost','ue4 mcc','0x800f0900','dism','kernelbase','werfault','whea uncorrectable error','codec','credential','driver','ge','itunes','mr','rosetta','sccm','script','unspecified','0x80240fff','80072efe','check','command','could','dns','egpu','games','hp','list','mbr','microsoft','node gyp','norton','oobekeyboard','pci','python ldap','runtime','side','sysprep specialize','the','0x8004de40','0x80072efe','10016','adobe','amd','clsid','dwm exe','err ssl protocol error','file','fix','ftp','install','lightroom','mcafee','net','netextender','ping','referenced','registry','scan','sims','spotify','stop','a','account','disable','distributedcom','errores','failed','insert','network','operation','repairing','restart','system windows data','video dxgkrnl fatal error','video scheduler internal error','0x80d05001','apache','cara','dropbox','error ','errore','halo','java','kernel data inpage error','sonicwall','tpm','acrocef exe','bcd','brother','common','esent','forcepad','hypervisor','i o','internal','van','van9001','view','werfault exe','window','xerox','0x800f020b','0x800f0831','application','bsod','certificate','checking','chrome','clean','constant','dell','does','drive','dymo','err http2 protocol error','err quic protocol error','error invalid window handle','event','find','fixing','funny','get','hard','http','internal power error','media','memory','modo','multiple','nsis','nvlddmkm sys','pnp detected fatal error','pr connect reset error','quickbooks','registry error','repair','reparar','see','software','ti','troubleshoot','try','unknown','watchdog','what','which','0x80004005','0x800f0922','0x800f0988','acpi bios error','airpods','all','another','bluetooth','boot','bootcamp','breakpoint','como','comprobar','core','corregir','critical','dcom','design','desk rt ipc error','detectar','different','distributed','error file exists','error internet sec cert revoked','error sxs assembly missing','error sxs component store corrupt','feature','funniest','general','glfw','hal','has','hwinfo','hypervisor error','ieframe','keep','kernel32 dll','kernel stack inpage error','most','pnp','recuperacion','reference','res','resolve','schannel','solving','srttrail txt','ssl error bad mac alert','ssl error no cypher overlap','start','startup','status device data error','sysprep','test','this','update','we','weird','why','windows com stopcode','00021a','0x00000bcb','0x80070005','0x8007000d','0x800705b4','0x80070643','0x80073701','0x80080005','0x8024a223','0x87e11838','0xc00001','0xc00007b','0xc004c008','0xc10100be','0xc19001e2','1067','789','80092004','800b0004','800f0831','acpi','arranque','asus','ataport','atiadlxx dll','automatically','best','bex64','bfadfcoei sys','bitlocker','buscar','c++','canon','citrix','class','clock','clr20r3','code','configuring','connection','correct','directx','discord','disney','don','download','draytek','dxgi error device removed','env check error','error printing','error service disabled','exception','fatal','fnf','font','gpapi dll','graphics','graphing','haier','hpstatusbl dll','icloud','igcctray exe','iniciar','inicio','jit','laptop','lenovo','logonui exe','microsoft net','midea','minecraft','ms','ms settings','msi','netio sys','ntfs','ntoskrnl exe','nvidia','nvlddmkm','onedrive','oobemsangcenroll','oobesettings','ora 12560','outlook','ovpnagent','path','pdf','perflib','pfro','printing','programa','prueba','pulse','quota','reading','reasons','registro','reparador','resolving','rtwlanu sys','run','running','sap','scanning','sec error ocsp future response','server','show','smart','snipping','socket','ssh add','ssl','ssl error bad mac read','star','task','there','tinyumbrella','tls','troubleshooting','trust','ultradma','uncorrectable','unexpected','upgrade','usb','val','ver','video tdr error','virtualbox','vmware','vpn','where','windowsupdate 800b0100','winspool drv','wpf','wslregisterdistribution','your','zoom',' quot',' dll',' exe',' lnk',' net',' net broadcast',' bcd',' boot bcd','0x803f7003','0x803f8001','0x803fa067','0x803fb005','0x80780048','0x807800c5','0x80780119','0x80d0000a','0x80d02002','0x80d05011','0x80d06802','0x81000037','0x81000204','0x87af0001','0x87d00705','0x87e10bd0','0x887a0004','0x887c0032','0x89231806','0x8ddd0018','0x8e5e0147','0x8e5e03fa','0x9f','0xa00000000000','0xa0000400','0xa00f4244','0xbba','0xc00000','0xc0000001','0xc0000005','0xc000000d','0xc000000e','0xc000000f','0xc0000017','0xc0000018','0xc0000022','0xc0000034','0xc0000035','0xc000007b','0xc000007f','0xc0000098','0xc000009a','0xc00000ba','0xc00000d4','0xc00000e','0xc00000e5','0xc00000e9','0xc00000f','0xc00000fd','0xc0000102','0xc000012f','0xc0000135','0xc0000142','0xc000014c','0xc0000185','0xc0000188','0xc000020','0xc000021a','0xc0000220','0xc0000221','0xc0000225','0xc0000242','0xc000025','0xc00002a','0xc00002e3','0xc0000374','0xc0000428','0xc00005','0xc00009a','0xc0000bb','0xc0000e9','0xc00021a','0xc000225','0xc0043100','0xc004b100','0xc004c003','0xc004c020','0xc004c060','0xc004e003','0xc004f009','0xc004f012','0xc004f014',],
+          larticle=['a','the','an','on','at','about', 'above', 'across', 'after', 'against', 'among', 'around', 'at', 'before', 'behind', 'below', 'beside ', 'between', 'by', 'down', 'during', 'for', 'from', 'in', 'inside', 'into', 'near', 'of', 'off', 'on', 'out', 'over', 'through', 'to', 'toward', 'under', 'up', 'with', 'aboard', 'along', 'amid', 'as', 'beneath', 'beyond', 'but ', 'concerning', 'considering', 'despite', 'except', 'following', 'like', 'minus', 'next', 'onto', 'opposite', 'outside', 'past', 'per', 'plus', 'regarding', 'round', 'save', 'since', 'than', 'till', 'underneath', 'unlike', 'until', 'upon', 'versus', 'via', 'within', 'without', 'aboard ', 'about', 'above', 'across', 'after ', 'against', 'along', 'amid', 'among', 'around', 'as', 'at', 'before', 'behind', 'below', 'beneath', 'beside ', 'between', 'beyond', 'but ', 'by', 'concerning', 'considering', 'despite', 'down', 'during', 'except', 'following', 'for', 'from', 'in', 'inside', 'into', 'like', 'minus', 'near', 'next', 'of', 'off', 'on', 'onto', 'opposite', 'out', 'outside', 'over', 'past', 'per', 'plus', 'regarding', 'round', 'save', 'since', 'than', 'through', 'till', 'to', 'toward', 'under', 'underneath', 'unlike', 'until', 'up', 'upon', 'versus', 'via', 'with', 'within', 'without','spot','brigade','warcraft','iris','light','page','screens','screnn','snowball','squares','yeti','hyper','adapter','devices','discovery','dongle','headphones','headset','pairing','peripheral','radio','setting','speaker','stack','transfer','rebuilder','fault','x3','lemur','onload','process','hit','message','gives','camp','congiguration','failure','from','ini','loop','missing','performance','sequence','gpt','copying','downloading','ran','remove','windowssupport','fixboot','fixmbr','corrupt','goty','tps','windowed','database','ae2','soundlink','stacked','limit','rigs','commander','connections','turned','20702','builder','8810dw','dcp 7065','difxdriverpackageinstall','hl 2270dw','hl 2271dw','hl 22800w','hl l2370','iprint&scan','mfc','mfc 465cn','mfc 8910dw','mfc j475dw','ql','ql 700','x86','cc','player','8e','f4','random','says','shut','with','clust','v 2 1 3','splat','ndis','14936 rs','caffe','wheel','addministraton','scholarship','of werid','cd','wav','plastic','530072','starcraft','motioninjoy','product','trying','upgrading','copy','essentials','number','tienda','uodate','bookwalker','solution','usage','microsoft windows grouppolicy','starting','fortnite','extracting','microsoft windows terminal','help','ignite','arena','effects','migrate','nx','qcs server error','suite','errno','asia','europa','explorer','unfortunately','reflector','giving','express','extreme','4g','dongle','camra','err connection refused','aj380','lpd8','solo','enterprise','sorry','setup','sub','browsers','browsing','websites','bradley','heroes','reach','wget','vm','carbon','controller','designer','hyperserverprocess','publish','bender','apk','bip','500150','600000','ec2','freetime','hardy','hdmi','instant','kindle','music','rds','redshift','s3','services','underground','workspaces','cameras','ip4m','link','product','pvt','rewards','airline','airlines','rifelman','fail','server sent','purge','ethernet','expected','ldap','unexpected','unknow','scikit learn','internect','tag','6 0 1','blocking','cnn','corporate','default','emulator','hangouts','huluplayback connection error occured','jellybean','radio','sametime','sideload','studio','system','tune','vollet','volley','webview','wireless','phones','birds','signalr','handle','crossing','mentor','keyboard','syncing','1800','2070','mget','gta','zone','write','eden','user','sap','professional','out','exvius','frontier','stars','hangs','theme','gas','speed','4700','ads 2000e','dc200','et2750','hl','hl 3180cdw','hl l2370dw','hl l2390dw','hl l3290cdw','image','iprint','iprint&scan','j475dw','l 2540dw','l2540dw','l27100w','l2750','lc101','mcf','mfc','mfc 7860dw','mfc 9330cdw','mfc 9340cdw','mfc j430w','mfc j470dw','mfc j870dwdw','mfc l2750dw','mfc l3710cw','mfc685cw','printers','cube','displays','error when connecting to','fingerprint com','gives','limited','modem','mania','witch','nas','gitlab','task','manga','king','collaborator','100','connection open','cure','properly','spire','syntax','task run','try','libcurl','xr','pilipinas','detection','cue','v1740','lmu','chronograph','lvs','send','hit','forwarding','bus','mx722','ping','t','be','contact','erase','post','retrieve','set','turn','upload','blast','ot'],
+          preposition=['from','download','failed','error','thingiverse','itunes','barney','microsoft','minecraft','windows','application','chrome','hbo','toyota','gmail','pk','kindle','nintendo','free','http','mega','origin','warzone','an','android','audible','gaming','genshin','ghost','google','how','hulu','paramount','computer','onedrive','steam','unable','build','disk','disney','entune','fix','lotro','us','error:','discord','hbomax','netflix','4k','872efe','core','couldnt','file','rav4','virus','1','13','back','cod','correct','downloaddinteractiveerror','errore','gizmo','helm','icloud','ios','quicken','switch','2k','adobe','amazon','autodesk','avoiding','blade','call','camry','cant','civ','collins','comappleosinstallersetuplink','comedy','common','data','dropbox','errors','failed-network','forza','geforce','gizmotab','gizmotablet','halo','hololive','humble','kb54698','lexus','manitowoc','modern','mw','network','nsis','palo','pc','pes','plex','podcast','prime','ps4','ps5','revit','roblox','slayer','star','tacoma','the','tms-com','tragedy','tv','twisted','us','unity','virtual','what','whatsapp','xbox','xerox','installing','internal','ipad','iphone','izotope','kb5009191','kb5013943','launch','malwarebytes','monterey','mvn','native','network','non','oem','origin','policy','premature','python','pythonnet','react','reinstall','sharp ','site','solidworks','sophos','subprocess exited with error','teams','tenemos','there','tile','truffle','unexpected','unity','uplay','virtual','webex','what','winzip','wireshark','your','zerto','&','&quot','  cloudera manager installer bin',' net','agile','agnc','ah','ahci','ai','ailed','aimersoft','aiodns','aion','air','airflow','airport','airserver','airwatch','akai','akamai','akaso','akatsuki','al','alarm','alexa','alexeadot','ali','alicia','alidropshipping','aliens','alienware','all','allied','allintitle an','allow','allscripts','aloha','alot','already','alt','altair','altaro','altdeploy','altimeter','altiris','altstore','altuim','aluminum','alvaricraft','always','amahi','amazon','ambari','amd','amd vi','amdgpu pro install','ami','amp','amplify','amway','an error occurred while preparing the installation fix','anaconda','anaconda3','ananconda','anarchy','andoid','andriod','android','android permission install packages','android uid system','andy','andyroid','angular','angular phonecat','angular ui router','angular2','angularfire2','angularjs','animate','anki','anno','ansi styles','ansible','ansys','antegos','antelope','antenna','antergos','anthem','antivirus','any','anyconnect','anydesk','anypoint','anyq','aoe','aol','apache','apachii','aparece','apb','apc','aperture','apex','apfs','api','apk','apkmirror','aplpy','apm','app install error command failed','appcake','appcelerator','appexchange','appfabric','appium','appium chromedriver','apple installer pagecontroller','application','applocale','apploe','apps','apps2fire','appsense','appvalley','apt','apt get','aptana','aptoide','arbrites','arc','arcania','arcanum','arcgis','arch','atome','atomic','atrix','attempt','attribute','attune','aubio','audacity','audi','audible','audio','audiobox','aura','authentication','authorization','autidesk','auto','autochk','autograss','autohotkey','automate','automatic','automation','autopep8','autorun dll','autostart','autotrace','autumn aurora compilation mod','avada','avahi dnsconfd','avengers','aver','avery','avg','avid','avira','avoid','awkcr','awoo','aws','awscli','awsebcli','ax','ax2012','axis','azure','azurecli','back','backblaze','backup','backups','baidu','bamboo','bamtools','band','band in a box','bard','bare','barkley','barracuda','bartender','base','base installer','basecamp','bash','bash it','basic','batman','battery','batteye','battle','battle net','battlefied','battlefield','battlefiled','battlefront','battlelog','battlenet','battllefield','bazel 0 4 5 installer linux x86 64 sh','bbfreeze','bbm','bc','bcbio nextgen','bcd','bcmon','bcmwl kernel source','bcp','bcrypt','bcrypt as promised','bde','bdo','be','beamng','beat','beautiful','beautifulsoup','beautyou','becpg','beef','beetv','beginners','begins','behavior','behringer','bein','belkin','bentley','beta','betheme','bethesda','better','betterdiscord','bex','bf2','bf3','bf4','bg2ee','bgee','bi','bidi','bigsur','bind','binder','bing','bink','biocmanager','biogeme','biomapi','biopython','bios','bioshock','bit','bitbucket','bitdefender','bitlocker','bitminter','bitnami','bittorrent','bizhub','biztalk','bjoern','bkool','black','blackarch','blackberry','blackink','blackmagic','blackshot','blade','blank','blat','blcmm','blender','blesta','bliss','blizzard','blockhead','bloodborne','bloodmoon','bloodstained installation errors','bloomberg','blu','blue','bluebeam','bluehost','blueiris','bluepy','bluesoleil','bluestack','bluestaks','bluetooth','blur','blustacks','bluto'],
+          uarticleIndex,
+          nounIndex1,
+          nounIndex2,
+          verbIndex,
+          larticleIndex,
+          prepositionIndex,
+          space = " ";
+
+          for (i = 1; i <=30; i++) {
+          uarticleIndex = Math.floor ( Math.random() * uarticle.length ); 
+          nounIndex1 = Math.floor ( Math.random() * noun.length ); 
+          nounIndex2 = Math.floor ( Math.random() * noun.length ); 
+          while (nounIndex1 == nounIndex2) {
+            nounIndex2 = Math.floor ( Math.random() * noun.length );
+          }
+          verbIndex = Math.floor ( Math.random() * verb.length );
+          larticleIndex = Math.floor ( Math.random() * larticle.length );
+          while (larticleIndex == uarticleIndex) {
+            larticleIndex = Math.floor ( Math.random() * larticle.length );
+          }
+          prepositionIndex = Math.floor ( Math.random() * preposition.length );
+          document.write(uarticle[uarticleIndex] +
+              space + noun[nounIndex1] +
+              space + verb[verbIndex] + 
+              space + preposition[prepositionIndex] + 
+              space + larticle[larticleIndex] + 
+              space + noun[nounIndex2] + ".");i
+              
+        }
+        document.write('<br><br>')
+        for (i = 1; i <=50; i++) {
+          uarticleIndex = Math.floor ( Math.random() * uarticle.length ); 
+          nounIndex1 = Math.floor ( Math.random() * noun.length ); 
+          nounIndex2 = Math.floor ( Math.random() * noun.length ); 
+          while (nounIndex1 == nounIndex2) {
+            nounIndex2 = Math.floor ( Math.random() * noun.length );
+          }
+          verbIndex = Math.floor ( Math.random() * verb.length );
+          larticleIndex = Math.floor ( Math.random() * larticle.length );
+          while (larticleIndex == uarticleIndex) {
+            larticleIndex = Math.floor ( Math.random() * larticle.length );
+          }
+          prepositionIndex = Math.floor ( Math.random() * preposition.length );
+          document.write(uarticle[uarticleIndex] +
+              space + noun[nounIndex1] +
+              space + verb[verbIndex] + 
+              space + preposition[prepositionIndex] + 
+              space + larticle[larticleIndex] + 
+              space + noun[nounIndex2] + ".");i
+              
+        }
+        document.write('<br><br>')
+
+        for (i = 1; i <=70; i++) {
+          uarticleIndex = Math.floor ( Math.random() * uarticle.length ); 
+          nounIndex1 = Math.floor ( Math.random() * noun.length ); 
+          nounIndex2 = Math.floor ( Math.random() * noun.length ); 
+          while (nounIndex1 == nounIndex2) {
+            nounIndex2 = Math.floor ( Math.random() * noun.length );
+          }
+          verbIndex = Math.floor ( Math.random() * verb.length );
+          larticleIndex = Math.floor ( Math.random() * larticle.length );
+          while (larticleIndex == uarticleIndex) {
+            larticleIndex = Math.floor ( Math.random() * larticle.length );
+          }
+          prepositionIndex = Math.floor ( Math.random() * preposition.length );
+          document.write(uarticle[uarticleIndex] +
+              space + noun[nounIndex1] +
+              space + verb[verbIndex] + 
+              space + preposition[prepositionIndex] + 
+              space + larticle[larticleIndex] + 
+              space + noun[nounIndex2] + ".");i
+              
+        }
+        document.write('<br><br>')
+        for (i = 1; i <=30; i++) {
+          uarticleIndex = Math.floor ( Math.random() * uarticle.length ); 
+          nounIndex1 = Math.floor ( Math.random() * noun.length ); 
+          nounIndex2 = Math.floor ( Math.random() * noun.length ); 
+          while (nounIndex1 == nounIndex2) {
+            nounIndex2 = Math.floor ( Math.random() * noun.length );
+          }
+          verbIndex = Math.floor ( Math.random() * verb.length );
+          larticleIndex = Math.floor ( Math.random() * larticle.length );
+          while (larticleIndex == uarticleIndex) {
+            larticleIndex = Math.floor ( Math.random() * larticle.length );
+          }
+          prepositionIndex = Math.floor ( Math.random() * preposition.length );
+          document.write(uarticle[uarticleIndex] +
+              space + noun[nounIndex1] +
+              space + verb[verbIndex] + 
+              space + preposition[prepositionIndex] + 
+              space + larticle[larticleIndex] + 
+              space + noun[nounIndex2] + ".");i
+              
+        }
+        document.write('<br><br>')
+        for (i = 1; i <=60; i++) {
+          uarticleIndex = Math.floor ( Math.random() * uarticle.length ); 
+          nounIndex1 = Math.floor ( Math.random() * noun.length ); 
+          nounIndex2 = Math.floor ( Math.random() * noun.length ); 
+          while (nounIndex1 == nounIndex2) {
+            nounIndex2 = Math.floor ( Math.random() * noun.length );
+          }
+          verbIndex = Math.floor ( Math.random() * verb.length );
+          larticleIndex = Math.floor ( Math.random() * larticle.length );
+          while (larticleIndex == uarticleIndex) {
+            larticleIndex = Math.floor ( Math.random() * larticle.length );
+          }
+          prepositionIndex = Math.floor ( Math.random() * preposition.length );
+          document.write(uarticle[uarticleIndex] +
+              space + noun[nounIndex1] +
+              space + verb[verbIndex] + 
+              space + preposition[prepositionIndex] + 
+              space + larticle[larticleIndex] + 
+              space + noun[nounIndex2] + ".");i
+              
+        }
+        document.write('<br><br>')
+        async function getFile(fileURL){
+            let fileContent = await fetch(fileURL);
+            fileContent = await  fileContent.text();
+            return fileContent;
+        }
+
+        // Passing file url 
+        getFile('keywords.txt').then(content =>{
+        // Using split method and passing "\n" as parameter for splitting
+        let array =  content.trim().split("\n");
+        var arrayLength = array.length;
+        //console.log(arrayLength);
+        
+        for (i = 1; i <=50; i++) {
+          uarticleIndex = Math.floor ( Math.random() * uarticle.length ); 
+          nounIndex1 = Math.floor ( Math.random() * noun.length ); 
+          nounIndex2 = Math.floor ( Math.random() * noun.length ); 
+          url = Math.floor ( Math.random() * array.length );
+          while (nounIndex1 == nounIndex2) {
+            nounIndex2 = Math.floor ( Math.random() * noun.length );
+          }
+          verbIndex = Math.floor ( Math.random() * verb.length );
+          larticleIndex = Math.floor ( Math.random() * larticle.length );
+          while (larticleIndex == uarticleIndex) {
+            larticleIndex = Math.floor ( Math.random() * larticle.length );
+          }
+          prepositionIndex = Math.floor ( Math.random() * preposition.length );
+         
+         // var a = array[url].split('/')
+          var a = array[url]
+         // var key = a[3]
+         // console.log(a)
+          key=a.replaceAll('.html',' ')
+          rekey = key.replaceAll('-',' ')
+          console.log(rekey)
+          var cont =  ("<a href="+array[url]+">"+uarticle[uarticleIndex] +
+              space + noun[nounIndex1] + space + rekey +
+              space + verb[verbIndex] + 
+              space + preposition[prepositionIndex] + 
+              space + larticle[larticleIndex] + 
+              space + noun[nounIndex2] + ".</a>");i
+          
+              //console.log(cont)
+              var result = document.querySelector("#content");
+              result.innerHTML += cont;
+      }
+
+        }).catch(error =>{
+            console.log(error);
+        });
+</script> 
+<div id = 'content'></div>
+
+  
+       
+</body>
+</html>
